@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		    alert('API is not supported by your browser');
 		}
 	}, false);
-	
+
 	document.getElementById('picture').addEventListener('click', function(e){
 		e.preventDefault();
 		if (webcam.isStarted()){
