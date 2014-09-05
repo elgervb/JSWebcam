@@ -10,10 +10,10 @@ Methods
 | Method      | Description                                               |
 |-------------|-----------------------------------------------------------|
 | element     | Returns the actual video HTMLElement                      |
-| enable      | Enables the webcam, will ask the user to share his webcam |
-| isEnabled   | Checks whether the webcam is enabled                      |
+| start       | Enables the webcam, will ask the user to share his webcam |
+| isStarted   | Checks whether the webcam is started                      |
 | isSupported | Checks whether or not the API is supported by the browser |
-| reset       | Resets the Webcam object and deletes any pictures taken   |
+| stop        | Stops the Webcam object                                   |
 | takePicture | Take a still image of the webcam, returns a Blob          |
 | uriToBlob   | Takes in a dataUri and transforms it into a Blob          |
 
@@ -24,7 +24,7 @@ Usage
 ```javascript
 var webcam = new Webcam('#video');
 if (webcam.isSupported()) {
-	webcam.enable({video: true, audio: false}, function(stream) {
+	webcam.start({video: true, audio: false}, function(stream) {
       // success function, video is streaming...
     }, function(e) {
       alert('Oops, something went wrong');

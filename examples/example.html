@@ -8,14 +8,16 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	</head>
 	<body>
+		<div>
+			<button id="start">Start</button>
+			<button id="stop">Stop</button>
 
-		<video id="video" autoplay loop></video>
+			<button id="picture">Take picture</button>
+		</div>
+
+		<video id="video" ></video>
 		<img id="image" src="">
 		<img id="thumb" src="">
-
-		<div>
-			<button id="picture">Take picture</button>
-		</div>	
 
 		<script src="../lib/Webcam.js"></script>
 		<script src="./impl.js"></script>
