@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 	document.getElementById('image').style.display = 'none';
+	document.getElementById('thumb').style.display = 'none';
 
 
 	var webcam = new Webcam('#video');
@@ -25,6 +26,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		    // and assign it to an image
 		    document.querySelector('#image').src = pic;
 		    document.querySelector('#image').style.display = 'inline';
+
+		    // now take an picture using the webcam and make a square centered thumb
+		    var pic = webcam.takePicture(function(ctx, canvas){
+		        var min = Math.min(canvas.width,canvas.height);
+		        var max = Math.max(canvas.width,canvas.height);
+		         canvas.width = min;
+		        canvas.height = min;
+		        ctx.drawImage(webcam.element(), (max-min)/2, 0, min,min, 0,0,min,min);
+		      });
+
+		    // and assign it to an image
+		    document.querySelector('#thumb').src = pic;
+		    document.querySelector('#thumb').style.display = 'inline';
 	    }
 	}, false);
 
