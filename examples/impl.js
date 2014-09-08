@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
 		    });
 		}
 		else {
-			// if (window.navigator.userAgent.match(/Mobi/)){ // mobile browser...
+			if (window.navigator.userAgent.match(/Mobi/)){ // mobile browser...
 				webcam.useFallback(true);
-			// }
-		 //    else{
-		 //    	alert('API is not supported by your browser');
-		 //    }
+			}
+		    else{
+		    	alert('API is not supported by your browser');
+		    }
 		}
 	}, false);
 
@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		    // now take an picture using the webcam and make a square centered thumb
 		    webcam.takePicture(function(pic){
+		    	document.getElementById('video').style.display = 'none';
 		    	// and assign it to an image
 			    document.querySelector('#thumb').src = pic;
 			    document.querySelector('#thumb').style.display = 'inline';
@@ -63,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		// now take an picture using the webcam and make a square centered thumb
 	    webcam.fallback(function(pic){
+	    	document.getElementById('video').style.display = 'none';
 	    	// and assign it to an image
 		    document.querySelector('#thumb').src = pic;
 		    document.querySelector('#thumb').style.display = 'inline';
