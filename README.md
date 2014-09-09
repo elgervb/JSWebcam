@@ -46,10 +46,8 @@ else {
 
 Reading material
 -----
-http://dev.w3.org/2011/webrtc/editor/archives/20140619/getusermedia.html
-http://dev.w3.org/2009/dap/camera/
-
-https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia
-https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
-
-http://www.html5rocks.com/en/tutorials/getusermedia/intro/
+* http://dev.w3.org/2011/webrtc/editor/archives/20140619/getusermedia.html
+* http://dev.w3.org/2009/dap/camera/
+* https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia
+* https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
+* http://www.html5rocks.com/en/tutorials/getusermedia/intro/
