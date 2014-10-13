@@ -5,6 +5,9 @@ JSWebcam
 Make use of the webcam in the browser, using an optional fallback to use the camera of mobile devices or to upload pictures from disc.
 
 
+Fork me on GitHub https://github.com/elgervb/JSWebcam
+
+
 Methods
 -------
 
