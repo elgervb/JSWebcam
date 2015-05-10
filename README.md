@@ -6,6 +6,7 @@ Make use of the webcam in the browser, using an optional fallback to use the cam
 
 
 Fork me on GitHub https://github.com/elgervb/JSWebcam
+Example on: http://elgervanboxtel.nl/site/blog/capturing-webcam-with-getusermedia-and-canvas
 
 
 Methods
