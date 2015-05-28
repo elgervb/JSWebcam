@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	var webcam = new Webcam('#video');
 
+  /**
+   * when pressing the stop button...
+   */
 	document.getElementById('stop').addEventListener('click', function(e){
 		e.preventDefault();
 		webcam.stop();
