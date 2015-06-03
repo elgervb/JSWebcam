@@ -2,7 +2,7 @@
 JSWebcam
 ========
 
-[![Join the chat at https://gitter.im/elgervb/JSWebcam](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/elgervb/JSWebcam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Join the chat at [![Join the chat at https://gitter.im/elgervb/JSWebcam](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/elgervb/JSWebcam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Make use of the webcam in the browser, using an optional fallback to use the camera of mobile devices or to upload pictures from disc.
 
