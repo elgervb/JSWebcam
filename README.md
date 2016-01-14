@@ -57,3 +57,7 @@ Reading material
 * https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia
 * https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
 * http://www.html5rocks.com/en/tutorials/getusermedia/intro/
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/elgervb/jswebcam/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
